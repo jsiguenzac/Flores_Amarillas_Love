@@ -13,6 +13,10 @@ window.addEventListener('DOMContentLoaded', () => {
   // Ocultar la sección al cargar la página
   const ContenedorBotones = document.querySelector(".Contenedor");
   ContenedorBotones.style.display = "none";
+
+  const ContenedorBotones2 = document.querySelector(".main_content");
+  ContenedorBotones2.style.display = "none";
+
   // Reproducir el audio al cargar la página
   const audioElement = document.getElementById("miAudio");
   if (audioElement.paused) {
@@ -43,6 +47,15 @@ document.getElementById("B12").addEventListener('click', function() {
 document.getElementById("BBack").addEventListener('click', function() {  
   const Contenedor = document.querySelector(".Contenedor");
   Contenedor.style.display = "none";  
+  const ContenedorBotones = document.querySelector(".main_content");
+  ContenedorBotones.style.display = "block";
+})
+
+document.getElementById("sound").addEventListener('click', function() {
+  const audioElement = document.getElementById("audio");
+  audioElement.play();
+  const ContenedorBotones2 = document.querySelector(".active_sound");
+  ContenedorBotones2.style.display = "none";
   const ContenedorBotones = document.querySelector(".main_content");
   ContenedorBotones.style.display = "block";
 })

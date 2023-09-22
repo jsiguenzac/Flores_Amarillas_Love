@@ -15,10 +15,19 @@
             .heart {
                 font-size: 30rem;
                 animation: heart .6s infinite alternate;
+                color: red;
             }
             .heart2{
                 font-size: 30rem;
                 animation: heart .8s infinite alternate;
+            }
+            .heartButton {
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                outline: none;
+                font-size: 30rem;
+                color: red;
             }
             .p {
                 font: oblique bold 100% cursive;
@@ -73,7 +82,19 @@
         </style>
     </head>
 <body>
-      
+    
+    <div class="active_sound" style="text-align: center;"><header>
+        <div id="main_title">
+            <H1 class="p1" style="text-align: center;">Para mi futura esposa ♡ !! </H1>
+        </div>
+    </header>
+        <p class="p">Hola Hermosa, presiona el corazoncito 😊</p>
+        <div class="heart"><button class="heartButton" id="sound">❤</button></div>
+    </div>
+
+    <audio id="audio" src="Audio/F._Amarillas.mp3" loop></audio>
+
+
         <div class="main_content">
         <div id="main_wrapper">
             <header>
@@ -121,11 +142,11 @@
             <div class="Texto">
                 <p id="Text" class="p" style="text-align: center;">Siempre quiero caminar contigo de la mano, quiero ser tu compañero, tu protector y la persona que este siempre a tu lado, te amo y se que suena repetitivo pero de verdad te amo cada segundo que pasa y cada día que pase te dare las gracias por lo feliz que me haces cada momento. (●'◡'●)ﾉ♥
                 </p>
-            </div> 
+            </div>
         </main>
-        <footer class="soundcloud-bar">
-            <iframe style="display: none;" width="60%" height="16" scrolling="no" allow="autoplay" src="Audio/Flores_Cover.mp3"></iframe>
-        </footer>
+        <!--<footer class="soundcloud-bar">
+            <iframe style="display: none;" width="60%" height="16" scrolling="no" allow="autoplay" src="Audio/F._Amarillas.mp3"></iframe>
+        </footer>-->
         <script src="Js/app.js"></script>
         <script src="Js/Dis.js"></script>
     </body>
