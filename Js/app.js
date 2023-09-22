@@ -13,6 +13,11 @@ window.addEventListener('DOMContentLoaded', () => {
   // Ocultar la sección al cargar la página
   const ContenedorBotones = document.querySelector(".Contenedor");
   ContenedorBotones.style.display = "none";
+  // Reproducir el audio al cargar la página
+  const audioElement = document.getElementById("miAudio");
+  if (audioElement.paused) {
+    audioElement.play();
+  }
 });
 
 let h1 = document.getElementById("Titulo");
