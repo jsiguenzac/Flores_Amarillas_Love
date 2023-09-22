@@ -1,0 +1,216 @@
+/* Definir fuentes personalizadas */
+
+
+.Button{
+    font-family: monospace;
+    font-size: x-large;
+    transition-duration: 0.2s;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: greenyellow; 
+    color: black; 
+    border: 2px solid green;
+    cursor: pointer;
+    text-align: center;
+}
+  
+.Button:hover{
+    transform: scale(1.1);
+    border-radius: 14px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: black;
+    background-color: white;
+}
+
+
+/* Elementos principales de la página */
+
+
+
+#main_wrapper
+{
+    max-width: 900px;
+    margin: auto;
+}
+
+section h1, footer h1, nav a
+{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+/* Encabezado */
+
+header
+{
+    background: url('images/line.png') repeat-x bottom;
+}
+
+#main_title
+{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+header h1
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+#logo, header h1
+{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+header h2
+{
+    font-family: Dayrom, serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+}
+/* Navegación */
+nav
+{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+/* Banner */
+
+#banner_image {
+    margin-top: 15px;
+    height: 300px;
+    width: 60%;
+    margin-left: 180px;
+    border-radius: 10px; /* Cambiar el radio del borde */
+    background: url('images/fondo2.png') no-repeat;
+    background-size: contain; /* Ajusta el tamaño de la imagen */
+    background-position: center; /* Centra la imagen horizontalmente */
+    position: relative;
+    box-shadow: 0px 6px 6px #544e4d; /* Cambiar el estilo de sombra */
+    margin-bottom: 25px;
+}
+
+#banner_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgb(24,24,24); /* Los navegadores antiguos leerán esto */
+    background-color: rgba(24,24,24,0.8); /* Los navegadores nuevos leerán esto */
+    color: white;
+    font-size: 20px;
+}
+
+.Contenedor-Binicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.red_button
+{
+
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('images/red_background.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
+
+.red_button img
+{
+    border: 0;
+}
+/* Cuerpo */
+
+article, aside
+{
+    display: inline-block;
+    vertical-align: top;
+    text-align: justify;
+}
+
+article
+{
+    max-width: 625px;
+    margin-right: 15px;
+}
+
+.cat_icon
+{
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+article p
+{
+    font-size: 0.8em;
+}
+
+aside
+{
+    position: relative;
+    width: 235px;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+#arrow
+{
+    position: absolute;
+    top: 100px;
+    left: -12px;
+}
+
+
+/* Pie de página */
+

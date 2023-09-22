@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Te amo con toda mi vida</title>
+        <style>
+            body{
+                background-color: pink;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100ssvh;
+            }
+            .heart {
+                font-size: 30rem;
+                animation: heart .6s infinite alternate;
+            }
+            .heart2{
+                font-size: 30rem;
+                animation: heart .8s infinite alternate;
+            }
+            .p {
+                font: oblique bold 100% cursive;
+                font-size: 20px;
+            }
+            .p1{
+                font: oblique bold 250% cursive;
+                font-size: 40px;
+            }
+            .p3{
+                font: oblique bold 100% cursive;
+                font-size: 23px;
+            }
+
+            @keyframes heart{
+                from{
+                    transform: scale(.7);
+                }
+                to{
+                    transform: scale(1);
+                }
+            }
+            .center{
+                text-align: center;
+            }
+            @media screen and (max-width: 980px){
+           #contenedor{
+            width: 90%;
+             }
+            #contenido{
+            width: 60%;
+            }
+            #barra_lateral{
+            width:30%;
+            }
+            }
+            @media screen and (max-width: 480px){
+            #encabezado{
+            height: auto;
+            }
+            #contenido{
+            width: auto;
+            }
+            #barra_lateral{
+            display:none;
+            }
+            }
+            img {
+            max-width: 100%;
+            height: auto;
+            }
+        </style>
+    </head>
+<body>
+    
+    <audio autoplay loop>
+        <source src="Audio/F. Amarillas.mp3" type="audio/mpeg">
+    </audio>
+
+            <div class="main_content">
+        <div id="main_wrapper">
+            <header>
+                <div id="main_title">
+                    <H1 class="p1" style="text-align: center;">Para mi futura esposa ♡ !! </H1>
+                </div>
+            </header>
+
+                <div id="banner_image">
+                    <div id="banner_description" style="text-align: center;">
+                        Te amoo con toda mi vidaaaa..!!!<br />
+                    </div>
+                </div>
+                <section>
+                    <article>
+                        <br>
+                        <p class="p">Hola Preciosa, sé que aveces me distraigo mucho programando, pero en esta ocasion, te hice algo sencillo y espero que sea de tu agrado c:
+                        </p>
+                        <p class="p">Quiero que sepas que cuando estoy contigo se me olvidan todos los problemas que tengo, eres una de las personas que más amo en el mundo, desde que tú llegaste a mi vida me has ayudado en mucho y agradezco a Dios por ponerte en mi camino 💖
+                        </p>                        
+                    </article>
+                    <aside>
+                        <h3 class="p3">De tu programador favorito ♡</h3>
+                        <img src="images/arrow.png" alt="" id="arrow" />
+                        <p id="zozor_picture"><img src="images/fondo.jpg" alt="Zozor Picture" /></p>                    
+                        <p class="p3">Solo da click en el boton de abajo y veras lo que te tengo preparado n.n</p>
+                        <button class="Button" id="B12"> Clicka Aquí :) ❤ </button>
+                    </aside>
+                </section>
+            </div>
+        </div>
+        <div class="Con-2">
+            <div class="Con">
+                <button class="Button" id="B1" style="display: none;"></button>
+                <button class="Button" id="B12" style="display: none;"> </button>
+            </div>
+        </div>
+        <main class="Contenedor" style="text-align: center;">
+            <div class="Texto">
+                <H1 id="Text" class="p1" style="text-align: center;"><button class="Button" id="BBack"> ☜(ﾟヮﾟ☜) </button>
+                    Para mi futura esposa ♡ !! </H1>                
+            </div>
+            <canvas id="Flor" class="Flor" width="800" height="600"></canvas>   
+            <div class="Texto">
+                <p id="Text" class="p" style="text-align: center;">Siempre quiero caminar contigo de la mano, quiero ser tu compañero, tu protector y la persona que este siempre a tu lado, te amo y se que suena repetitivo pero de verdad te amo cada segundo que pasa y cada día que pase te dare las gracias por lo feliz que me haces cada momento. (●'◡'●)ﾉ♥
+                </p>
+            </div> 
+        </main>
+    
+        <script src="Js/app.js"></script>
+        <script src="Js/Dis.js"></script>
+    </body>
+</html>
